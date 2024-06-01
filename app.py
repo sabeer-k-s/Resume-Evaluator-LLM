@@ -55,7 +55,7 @@ dont wanna send me back the resume and Job description
 
 #Streamlit app
 st.title('Resume Analyzer')
-st.text('Tailor your Resume for the Job Description')
+st.text('Tailor your Resume for the Job Description ')
 
 jd = st.text_area('Paste the Job Description')
 uploaded_file = st.file_uploader("Upload Your Resume",type="pdf",help="Please upload the pdf")
